@@ -13,7 +13,15 @@ import Login from "./pages/Login";
 export default function App() {
   return (
     <div className="App">
-      
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/products" component={AboutUs} />
+          <Route path="/support" component={Help} />
+          <Route path="/login" component={Login} />
+        </Switch>
+      </Router>
     </div>
   );
 }

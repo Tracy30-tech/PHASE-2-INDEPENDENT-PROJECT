@@ -76,3 +76,7 @@ img {
   color: darkred;
   font-size: larger;
 }
+
+.card {
+  height: 50%;
+}

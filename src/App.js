@@ -20,6 +20,7 @@ export default function App() {
           <Route path="/products" component={AboutUs} />
           <Route path="/support" component={Help} />
           <Route path="/login" component={Login} />
+          <Route path="/update" component={Update} />
         </Switch>
       </Router>
     </div>

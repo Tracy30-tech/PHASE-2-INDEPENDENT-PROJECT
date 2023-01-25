@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  /* text-align: center; */
+}
+
+/* .home,
+.reports,
+.products {
+  display: flex;
+  height: 90vh;
+  
+  justify-content: center;
+  font-size: 3rem;
+} */
+
+form {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+input, select {
+  width: 90%; 
+  margin-bottom: 1rem;   
+}
+
+input[type="checkbox"] {
+  width: auto;
+}
+
+img {
+  width: 20%;
+  height: 20%;
+  margin-bottom: 1rem;
+}
+
+.home{
+  font-size: large;
+}
+
+.users{
+  color: darkred;
+}
+
+.add:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+.verify:hover {
+  background-color:green;
+  color: white;
+}
+.verify{
+  float: right;
+  color:darkred;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+}
+
+
+
+#firstname,
+#lastname,
+#gender,
+#username,
+#phone,
+#country,
+#category{
+  font-weight: bold;
+  color: darkred;
+  font-size: larger;
+}

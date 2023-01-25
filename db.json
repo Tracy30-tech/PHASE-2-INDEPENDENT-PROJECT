@@ -1,0 +1,179 @@
+{
+    "properties": [
+      {
+        "id": 1,
+        "name": "Wangechi Mutu",
+        "imageUrl": "https://blog.artsper.com/wp-content/uploads/2018/11/Wangechi-Mutu-3.jpg",
+        "category": "Paintwork",
+        "email": "wangechimutu@gmail.com"
+      },
+      {
+        "id": 2,
+        "name": "El Anatusui",
+        "imageUrl": "https://propscout.co.ke/storage/properties/files/gated-communities/webp/karen-5-bedroom-house-in-a-gated-community-for-rent-mljlo.webp",
+        "category": "Construction",
+        "email": "anatusui8999@gmail.com"
+      },
+      {
+        "id": 3,
+        "name": "Thandiwe Muriu",
+        "imageUrl": "http://cdn.home-designing.com/wp-content/uploads/2014/07/free-3-bedroom-house-plans.jpeg",
+        "category": "Construction",
+        "email": "thai59@yahoo.com"
+      },
+      {
+        "id": 4,
+        "name": "Julie Mehretu",
+        "imageUrl": "https://isdi.in/blog/wp-content/uploads/2022/07/25.jpg",
+        "category": "Fashion",
+        "email": "juliemuh@gmail.com"
+      },
+      {
+        "id": 5,
+        "name": "Enfant Précoce",
+        "imageUrl": "https://blog.artsper.com/wp-content/uploads/2021/03/enfant-1.jpg",
+        "category": "Paintwork",
+        "email": "eprécoce@yahoo.com"
+      },
+      {
+        "id": 6,
+        "name": "Ntombephi Ntobela",
+        "imageUrl": "https://static.dezeen.com/uploads/2020/12/harikrishnan-lcf-latex-fashion-design-sq-1-852x852.jpg",
+        "category": "Fashion",
+        "email": "ntombephiNtobela59@yahoo.com"
+      },
+      {
+        "id": 7,
+        "name": "William Kentridge",
+        "imageUrl": "https://fashionmingle.com/wp-content/uploads/2015/11/drawing657-888x538.jpg",
+        "category": "Fashion",
+        "email": "willmuh@gmail.com"
+      },
+      {
+        "id": 8,
+        "name": "Marlene Dumas",
+        "imageUrl": "https://images.saatchiart.com/saatchi/1418521/art/8228313/7293703-HSC00002-7.jpg",
+        "category": "Paintwork",
+        "email": "marleneDumas64@gmail.com"
+      },
+      {
+        "id": 9,
+        "name": "Michael Armitage",
+        "imageUrl": "https://images.kenyapropertycentre.com/properties/images/9020/060ec4204e27e5-runda-4-bedroom-house-for-sale-runda-westlands-nairobi.jpg",
+        "category": "Construction",
+        "email": "armitàge@gmail.com"
+      },
+      {
+        "id": 10,
+        "name": "Kendell Geers",
+        "imageUrl": "https://media.timeout.com/images/105795964/image.jpg",
+        "category": "Paintwork",
+        "email": "kendellGeers@yahoo.com"
+      },
+      {
+        "id": 11,
+        "name": "Njideka Akunyili Crosby",
+        "imageUrl": "https://i.pinimg.com/236x/fe/85/6f/fe856fe857f1c14ed3ef4b6e1efa692f.jpg",
+        "category": "Fashion",
+        "email": "akunyiiCrosby64@gmail.com"
+      },
+      {
+        "id": 12,
+        "name": "Wael Shawky",
+        "imageUrl": "https://www.gardenhouseskenya.com/wp-content/uploads/2021/12/Garden-Houses-Kenya-Nairobi-Garden-House-Off-Thika-Road-15-minitues-from-Nairobi-CBD-www.gardenhouseskenya.com-17n.jpg",
+        "category": "Construction",
+        "email": "waelShawky@yahoo.com"
+      },
+      {
+        "id": 13,
+        "name": "Adel Abdessemed",
+        "imageUrl": "https://artincontext.org/wp-content/uploads/2022/10/Famous-Sad-Paintings.jpg",
+        "category": "Paintwork",
+        "email": "armtàge500@gmail.com"
+      },
+      {
+        "id": 14,
+        "name": "Enfant Précoce",
+        "imageUrl": "https://img.nieuwsblad.be/L9iNYwM2WSkafoY2sGoNQ1UXkaI=/960x640/smart/https%3A%2F%2Fstatic.nieuwsblad.be%2FAssets%2FImages_Upload%2F2022%2F05%2F10%2F22e1cce8-8a07-4d63-8573-76a9a12375be.jpg",
+        "category": "Fashion",
+        "email": "enFantprécoce@yahoo.com"
+      },
+      {
+        "id": 15,
+        "name": "Basim Magdy",
+        "imageUrl": "https://www.thisiscolossal.com/wp-content/uploads/2020/04/getty-1.jpg",
+        "category": "Paintwork",
+        "email": "basimMagdy@gmail.com"
+      },
+      {
+        "id": 16,
+        "name": "Wangechi Mutu",
+        "imageUrl": "https://www.gardenhouseskenya.com/wp-content/uploads/2021/12/Garden-Houses-Kenya-Nairobi-Garden-House-Off-Thika-Road-15-minitues-from-Nairobi-CBD-www.gardenhouseskenya.com-17n.jpg",
+        "category": "Construction",
+        "email": "wangechimutu@gmail.com"
+      },
+      {
+        "id": 17,
+        "name": "Njideka Akunyili Crosby",
+        "imageUrl": "https://ual-media-res.cloudinary.com/image/fetch/c_limit,h_333/w_auto:breakpoints/https://www.arts.ac.uk/__data/assets/image/0021/230187/image5.jpeg",
+        "category": "Fashion",
+        "email": "akunyiiCrosby64@gmail.com"
+      },
+      {
+        "id": 18,
+        "name": "Ntombephi Ntobela",
+        "imageUrl": "https://cdn.architecturendesign.net/wp-content/uploads/2014/10/29-3-bedoom-with-balcony-house-plans.jpeg",
+        "category": "Construction",
+        "email": "ntombephiNtobela59@yahoo.com"
+      },
+      {
+        "id": 19,
+        "name": "Michael Armitage",
+        "imageUrl": "https://www.shutterstock.com/shutterstock/photos/1189338559/display_1500/stock-vector-fashion-man-fashion-men-sketches-on-a-white-background-autumn-men-1189338559.jpg",
+        "category": "Fashion",
+        "email": "michealArmitage@gmail.com"
+      },
+      {
+        "id": 20,
+        "name": "Barthélémy Toguo",
+        "imageUrl": "https://i.etsystatic.com/5413122/r/il/cc2859/2794564800/il_fullxfull.2794564800_iawo.jpg",
+        "category": "Paintwork",
+        "email": "barthlélémyMagdy@gmail.com"
+      },
+      {
+        "id": 21,
+        "name": "Jean-Michel Albèrola",
+        "imageUrl": "https://images-prod.dazeddigital.com/786/azure/dazed-prod/1330/1/1331899.jpg",
+        "category": "Fashion",
+        "email": "alberola@yahoo.com"
+      },
+      {
+        "id": 22,
+        "name": "Ghada Amer",
+        "imageUrl": "https://images.kenyapropertycentre.com/properties/images/9020/060ec4204e27e5-runda-4-bedroom-house-for-sale-runda-westlands-nairobi.jpg",
+        "category": "Construction",
+        "email": "ghadaAmer764@gmail.com"
+      },
+      {
+        "id": 23,
+        "name": "Wael Shawky",
+        "imageUrl": "https://artworks.iseducation.com.au/wp-content/uploads/2022/10/CBGS-Patterned-Horse-1024x732.jpg",
+        "category": "Paintwork",
+        "email": "waelShawky@yahoo.com"
+      },
+      {
+        "id": 24,
+        "name": "Ibrahim El-Salahi",
+        "imageUrl": "https://icon.ink/wp-content/uploads/sites/5/2022/06/Armani.jpg?fit=1280%2C720",
+        "category": "Fashion",
+        "email": "ibrahim@gmail.com"
+      },
+      {
+        "id": 25,
+        "name": "Amoako Boafo",
+        "imageUrl": "https://i.pinimg.com/originals/67/09/25/6709257b7ec77fd03b8c7770ebdbeda3.jpg",
+        "category": "Construction",
+        "email": "armoako213@gmail.com"
+      }
+    ]
+  }

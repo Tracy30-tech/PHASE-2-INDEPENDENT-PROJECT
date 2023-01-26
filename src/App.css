@@ -6,6 +6,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
+  height: 150vh;
   /* text-align: center; */
 }
 
@@ -63,8 +64,6 @@ img {
   border-radius: 8px;
 }
 
-
-
 #firstname,
 #lastname,
 #gender,
@@ -107,7 +106,7 @@ nav a:active {
 }
 
 #more {
-  height: 300px;
+  height: 350px;
   background-color: #580327; /* For browsers that do not support gradients */
   background-image: linear-gradient(0deg,#580327, rgb(121, 185, 250));
   display: flex;

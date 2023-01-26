@@ -73,7 +73,7 @@ img {
 #country,
 #category{
   font-weight: bold;
-  color:  #580327;;
+  color:  #580327;
   font-size: larger;
 }
 
@@ -87,4 +87,46 @@ img {
 
 body{
   background-color: whitesmoke;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: firebrick;
+  border-bottom: 2px solid firebrick;
+  transition: 0.1s;
+}
+
+nav a:hover,
+nav a:active {
+  color: tomato;
+  border-bottom: 2px solid tomato;
+}
+
+#more {
+  height: 300px;
+  background-color: #580327; /* For browsers that do not support gradients */
+  background-image: linear-gradient(0deg,#580327, rgb(121, 185, 250));
+  display: flex;
+  justify-content: space-around;
+  font-size: large;
+}
+
+#content{
+  margin-top: 100px;
+}
+
+#form{
+  font-weight: 1000;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.phon{
+  font-weight: 1000;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

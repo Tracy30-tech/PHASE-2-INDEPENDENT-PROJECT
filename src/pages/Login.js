@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from "react";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
+import Navlink from "../components/Navlink";
 
 export default function Login() {
   const [items, setItems] = useState([])
@@ -55,6 +57,10 @@ export default function Login() {
 
     return(
       <div className="login">
+        <div> <Navlink /> </div>
+        <h1 id="form">
+         HYDRATECH INOVATIONS DESIGN AND BUILD
+        </h1>
         <div className="m-4">
             <form className="row" onSubmit={handleSubmit}>
                     <div className="col-4">
@@ -77,7 +83,7 @@ export default function Login() {
                         <button type="submit" className="btn btn-sm btn-primary">Add Item</button>
                     </div>
             </form>
-            <div className="row p-4">
+            <div className="row p-4" id="content">
                 {
                     items.map((item, index)=> {
                         return(
@@ -97,6 +103,7 @@ export default function Login() {
                 
             </div>
         </div>
+        <div> <Footer /></div>
       </div>
     )
 }

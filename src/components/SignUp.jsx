@@ -22,8 +22,6 @@ function SignUp() {
   function handleSubmit(event) {
     event.preventDefault();
 
-    setFormData("");
-
     Swal.fire({
       title: 'Success',
       text: 'Successfully created an acount',

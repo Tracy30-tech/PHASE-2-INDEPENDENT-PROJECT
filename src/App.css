@@ -73,10 +73,18 @@ img {
 #country,
 #category{
   font-weight: bold;
-  color: darkred;
+  color:  #580327;;
   font-size: larger;
 }
 
-.card {
-  height: 50%;
+.card{
+  height: 70%;
+  position: relative;
+  /* z-index: -1; */
+  background-color: black;
+  color: aliceblue;
+}
+
+body{
+  background-color: whitesmoke;
 }

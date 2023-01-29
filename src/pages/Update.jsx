@@ -6,7 +6,7 @@ import Swal from 'sweetalert2'
 export default function Update() {
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
-    const [category, setCategory] = useState("paintwork")
+    const [category, setCategory] = useState("")
   
       const {itemId} = useParams()
   

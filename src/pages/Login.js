@@ -53,6 +53,7 @@ export default function Login() {
         })
     }
 
+     
 
    
 
@@ -94,7 +95,11 @@ export default function Login() {
                                     <p class="card-text">Owner: {item.name}</p>
                                     <p class="card-text">Category: {item.category}</p>
                                     <p class="card-text">Email: {item.email}</p>
-                                    <Link to={`/update/${item.id}`}>Update</Link>
+                                    <button className="btn btn-secondary">
+                                      <Link className="text-black" to={`/update/${item.id}`}> Update</Link>
+                                    </button>
+                                    {/* <button onClick={handleDelete} className="btn btn-danger">Delete</button> */}
+
 
                                 </div>
                             </div>

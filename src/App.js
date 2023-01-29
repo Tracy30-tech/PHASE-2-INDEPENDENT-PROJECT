@@ -22,7 +22,7 @@ export default function App() {
           <Route path="/products" component={AboutUs} />
           <Route path="/support" component={Help} />
           <Route path="/login" component={Login} />
-          <Route path="/update" component={Update} />
+          <Route path="/update/:itemId" component={Update} />
           <Route path="/signup" component={SignUp} />
         </Switch>
       </Router>

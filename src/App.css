@@ -78,10 +78,13 @@ img {
 
 .card{
   height: 70%;
-  position: relative;
-  /* z-index: -1; */
+  /* position: absolute;
+  z-index: 1; */
   background-color: black;
   color: aliceblue;
+}
+.card-body{
+  background-color:black;
 }
 
 body{
@@ -143,4 +146,32 @@ nav a:active {
 
 #mission{
   margin-bottom: 50px;
+}
+
+.parag{
+  font-size: larger;
+  background-color: aliceblue;
+  margin-bottom: 70px;
+
+}
+
+.report{
+  margin-top: 30px;
+  font-weight: bolder;
+}
+
+w-100 d-block{
+  position: absolute;
+  z-index: -5;
+}
+
+.btn:hover {
+  background-color:green;
+  color: white;
+}
+.btn{
+  float: right;
+  color:darkred;
+  transition-duration: 0.4s;
+  border-radius: 8px;
 }

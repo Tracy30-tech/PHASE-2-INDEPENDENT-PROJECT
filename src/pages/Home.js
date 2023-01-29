@@ -1,6 +1,7 @@
 import React,{useState} from "react";
+import Carousel from "../components/Carousel";
 import Footer from "../components/Footer";
-import SignUp from "../components/SignUp";
+import { Link } from "react-router-dom";
 
 
 export default function Home() {
@@ -18,7 +19,10 @@ export default function Home() {
       </h1>
       <div className="users">USERS 👥:{users}</div>
       <button className="verify" onClick={handleClick}>Verify membership</button>
-      <div> <SignUp /> </div>
+      <button className="btn btn-secondary">
+        <Link className="text-black" to={"/signup"}> Create Account</Link>
+      </button>
+      <div> <Carousel/> </div>
       <div> <Footer /></div>
     </div>
   );

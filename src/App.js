@@ -10,6 +10,7 @@ import AboutUs from "./pages/AboutUs";
 import Help from "./pages/Help";
 import Login from "./pages/Login";
 import Update from "./pages/Update";
+import SignUp from "./components/SignUp";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
           <Route path="/support" component={Help} />
           <Route path="/login" component={Login} />
           <Route path="/update" component={Update} />
+          <Route path="/signup" component={SignUp} />
         </Switch>
       </Router>
     </div>

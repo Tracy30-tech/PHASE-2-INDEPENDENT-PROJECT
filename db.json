@@ -41,7 +41,7 @@
       "imageUrl": "http://cdn.home-designing.com/wp-content/uploads/2014/07/free-3-bedroom-house-plans.jpeg",
       "category": "Construction",
       "email": "thai59@yahoo.com"
-    }, 
+    },
     {
       "id": 7,
       "name": "William Kentridge",
@@ -181,7 +181,6 @@
       "email": "tracy.atieno@student.school.com",
       "category": "fashion",
       "imageUrl": "https://trendyartideas.com/wp-content/uploads/2021/09/fashion-dress-drawing.jpg"
-      
     },
     {
       "id": 27,
@@ -189,7 +188,13 @@
       "email": "trevortravis1000@gmail.com",
       "category": "paintwork",
       "imageUrl": "https://artworks.iseducation.com.au/wp-content/uploads/2022/10/CBGS-Patterned-Horse-1024x732.jpg"
-      
+    },
+    {
+      "name": "Tracy",
+      "email": "tracy.atieno@student.moringaschool.com",
+      "category": "fashion",
+      "imageUrl": "https://cdn.cliqueinc.com/posts/300326/american-fashion-designers-300326-1654474848742-main.700x0c.jpg",
+      "id": 28
     }
   ]
 }

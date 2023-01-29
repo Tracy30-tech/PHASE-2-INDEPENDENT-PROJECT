@@ -160,41 +160,6 @@
       "imageUrl": "https://i.ebayimg.com/images/g/Y28AAOSwts1gmqoY/s-l1600.jpg",
       "category": "Paintwork",
       "email": "waelShawky@yahoo.com"
-    },
-    {
-      "id": 24,
-      "name": "Ibrahim El-Salahi",
-      "imageUrl": "https://icon.ink/wp-content/uploads/sites/5/2022/06/Armani.jpg?fit=1280%2C720",
-      "category": "Fashion",
-      "email": "ibrahim@gmail.com"
-    },
-    {
-      "id": 25,
-      "name": "Tracy Obonyo",
-      "imageUrl": "https://i.pinimg.com/originals/67/09/25/6709257b7ec77fd03b8c7770ebdbeda3.jpg",
-      "category": "Construction",
-      "email": "tracymcCoy@gmail.com"
-    },
-    {
-      "id": 26,
-      "name": "Adel Abdessemed",
-      "email": "tracy.atieno@student.school.com",
-      "category": "fashion",
-      "imageUrl": "https://trendyartideas.com/wp-content/uploads/2021/09/fashion-dress-drawing.jpg"
-    },
-    {
-      "id": 27,
-      "name": "Travis trevor",
-      "email": "trevortravis1000@gmail.com",
-      "category": "paintwork",
-      "imageUrl": "https://artworks.iseducation.com.au/wp-content/uploads/2022/10/CBGS-Patterned-Horse-1024x732.jpg"
-    },
-    {
-      "name": "Trevor",
-      "email": "tracy.atieno@student.moringaschool.com",
-      "category": "fashion",
-      "imageUrl": "https://cdn.cliqueinc.com/posts/300326/american-fashion-designers-300326-1654474848742-main.700x0c.jpg",
-      "id": 28
     }
   ]
 }

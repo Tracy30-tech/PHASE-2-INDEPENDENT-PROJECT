@@ -19,8 +19,8 @@ export default function Home() {
       </h1>
       <div className="users">USERS 👥:{users}</div>
       <button className="verify" onClick={handleClick}>Verify membership</button>
-      <button className="btn btn-secondary">
-        <Link className="text-black" to={"/signup"}> Create Account</Link>
+      <button className="btnhome">
+        <Link to={"/signup"}> Create Account</Link>
       </button>
       <div> <Carousel/> </div>
       <div> <Footer /></div>

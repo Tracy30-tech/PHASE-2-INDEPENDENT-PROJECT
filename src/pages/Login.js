@@ -53,9 +53,6 @@ export default function Login() {
         })
     }
 
-     
-
-   
 
     return(
       <div className="login">
@@ -65,24 +62,24 @@ export default function Login() {
         </h1>
         <div className="m-4">
             <form className="row" onSubmit={handleSubmit}>
-                    <div className="col-4 mb-4">
+                    <div className="col-4 mb-3">
                         <input name="name" onChange={handleOnChange} value={formData.name}  className="form-control form-control-sm  py-2" type="text" placeholder="Name here" aria-label=".form-control-sm example"/>
                     </div>
-                    <div className="col-4 mb-2">
-                        <input name="email" onChange={handleOnChange} value={formData.email}  className="form-control form-control-sm" type="text" placeholder="Email here" aria-label=".form-control-sm example"/>
+                    <div className="col-4 mb-3">
+                        <input name="email" onChange={handleOnChange} value={formData.email}  className="form-control form-control-sm py-2" type="text" placeholder="Email here" aria-label=".form-control-sm example"/>
                     </div>
-                    <div className="col-4 mb-2">
-                        <select name="category" onChange={handleOnChange} value={formData.category}  className="form-control form-control-sm" type="text" aria-label=".form-control-sm example">
+                    <div className="col-4 mb-3">
+                        <select name="category" onChange={handleOnChange} value={formData.category}  className="form-control form-control-sm py-2" type="text" aria-label=".form-control-sm example">
                             <option value="construction">Construction</option>
                             <option value="fashion">Fashion</option>
                             <option value="paintwork">Paint Work</option>
                         </select>   
                     </div>
-                    <div className="col-4 mb-2">
-                        <input name="imageUrl" onChange={handleOnChange} value={formData.imageUrl}  className="form-control form-control-sm" type="text" placeholder="Image URL" aria-label=".form-control-sm example"/>
+                    <div className="col-4 mb-3">
+                        <input name="imageUrl" onChange={handleOnChange} value={formData.imageUrl}  className="form-control form-control-sm py-2" type="text" placeholder="Image URL" aria-label=".form-control-sm example"/>
                     </div>
                     <div className="col-4">
-                        <button type="submit" className="btn btn-sm btn-primary">Add Item</button>
+                        <button type="submit" className="verify">Add Item</button>
                     </div>
             </form>
             <div className="row p-4" id="content">
@@ -91,13 +88,24 @@ export default function Login() {
                         return(
                             <div key={index} className="card col-sm-3 m-1" style={{width: "18rem;"}}>
                                 <img className="picture" src={item.imageUrl} class="card-img-top" alt="..."/>
-                                <div class="card-body">
-                                    <p class="card-text">Owner: {item.name}</p>
-                                    <p class="card-text">Category: {item.category}</p>
-                                    <p class="card-text">Email: {item.email}</p>
-                                    <button className="btn btn-secondary">
-                                      <Link className="text-black" to={`/update/${item.id}`}> Update</Link>
+                                <div className="card-body">
+                                    <p className="card-text">Owner: {item.name}</p>
+                                    <p className="card-text">Category: {item.category}</p>
+                                    <p className="card-text">Email: {item.email}</p>
+                                    <button className="hoverleft">
+                                      <Link  to={`/update/${item.id}`}> Update</Link>
                                     </button>
+                                    <button className="hover" onClick={()=> {
+                                        fetch(`http://localhost:3001/properties/${item.id}`,{
+                                            method:"DELETE"
+                                        })
+                                        .then ((res)=> res.json())
+                                        .then(data=>{
+                                           setItems(items.filter(array=>{
+                                            return array.id !== item.id
+                                           }))
+                                        })
+                                    }}>Delete</button>
                                     {/* <button onClick={handleDelete} className="btn btn-danger">Delete</button> */}
 
 

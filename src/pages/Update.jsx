@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Swal from 'sweetalert2'
 
 export default function Update() {
+   const [imageUrl, setImageUrl] = useState("")
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [category, setCategory] = useState("")
@@ -14,6 +15,7 @@ export default function Update() {
           fetch(`http://localhost:3001/properties/${itemId}`)
           .then((r)=>r.json())
           .then((post)=>{
+              setImageUrl(post.imageUrl)
               setName(post.name)
               setEmail(post.email)
               setCategory(post.category)
@@ -28,7 +30,7 @@ export default function Update() {
        fetch(`http://localhost:3001/properties/${itemId}`,{
           method:"PATCH",
           headers: {"Content-Type":"application/json"},
-          body:JSON.stringify({name: name, email:email, category: category})
+          body:JSON.stringify({name: name, email:email, category: category, imageUrl:imageUrl})
        })
           .then((r)=>r.json())
           .then((post)=>{
@@ -51,6 +53,10 @@ export default function Update() {
         <h3>Update {itemId}</h3>
 
         <form onSubmit={handleSubmit}>
+        <div className="mb-3">
+              <label className="form-label">Image</label>
+              <input type="text" className="form-control" value={imageUrl} onChange={function(e){setImageUrl(e.target.value)}} placeholder="Image URL" />
+            </div>
             <div className="mb-3">
               <label className="form-label">Name</label>
               <input type="text" className="form-control" value={name} onChange={function(e){setName(e.target.value)}} placeholder="Name here" />

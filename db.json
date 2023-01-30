@@ -51,10 +51,10 @@
     },
     {
       "id": 8,
-      "name": "Marlene Dumas",
-      "imageUrl": "https://images.saatchiart.com/saatchi/1418521/art/8228313/7293703-HSC00002-7.jpg",
+      "name": "Adel Abdessemed",
+      "imageUrl": "https://artincontext.org/wp-content/uploads/2022/10/Famous-Sad-Paintings.jpg",
       "category": "Paintwork",
-      "email": "marleneDumas64@gmail.com"
+      "email": "armtàge500@gmail.com"
     },
     {
       "id": 9,
@@ -86,10 +86,10 @@
     },
     {
       "id": 13,
-      "name": "Adel Abdessemed",
-      "imageUrl": "https://artincontext.org/wp-content/uploads/2022/10/Famous-Sad-Paintings.jpg",
+      "name": "Marlene Dumas",
+      "imageUrl": "https://images.saatchiart.com/saatchi/1418521/art/8228313/7293703-HSC00002-7.jpg",
       "category": "Paintwork",
-      "email": "armtàge500@gmail.com"
+      "email": "marleneDumas64@gmail.com"
     },
     {
       "id": 14,
@@ -160,6 +160,62 @@
       "imageUrl": "https://i.ebayimg.com/images/g/Y28AAOSwts1gmqoY/s-l1600.jpg",
       "category": "Paintwork",
       "email": "waelShawky@yahoo.com"
+    },
+    {
+      "id": 24,
+      "name": "Ronnie Raymond",
+      "imageUrl": "https://i.stack.imgur.com/eZUU2.gif ",
+      "category": "Construction",
+      "email": "raymond@gmail.com"
+    },
+    {
+      "id": 25,
+      "name": "Luke Dunphy",
+      "imageUrl": "https://wallpaper.dog/large/10758285.jpg",
+      "category": "Paintwork",
+      "email": "lukie@yahoo.com"
+    },
+    {
+      "id": 26,
+      "name": "Ntombephi Ntobela",
+      "imageUrl": "https://i.ytimg.com/vi/FpN2uSN6rJ4/maxresdefault.jpg",
+      "category": "Fashion",
+      "email": "ntombephiNtobela59@yahoo.com"
+    },
+    {
+      "id": 27,
+      "name": "Cisco Ramon",
+      "imageUrl": "https://ulrichome.com/wp-content/uploads/2019/01/3d-floor-plans.jpg",
+      "category": "Construction",
+      "email": "ciscoRamon@yahoo.com"
+    },
+    {
+      "id": 28,
+      "name": "Jean-Michel Albèrola",
+      "imageUrl": "https://openart.in/wp-content/uploads/2021/11/Cosmos-1200x808.jpg",
+      "category": "Paintwork",
+      "email": "jeanMicheal@gmail.com"
+    },
+    {
+      "id": 29,
+      "name": "Njideka Akunyili Crosby",
+      "imageUrl": "https://buzzcentral.co.ke/wp-content/uploads/2021/10/Afrostreet-Kollexion-660x400.jpg",
+      "category": "Fashion",
+      "email": "anatusui8999@gmail.com"
+    },
+    {
+      "id": 30,
+      "name": "Wael Shawky",
+      "imageUrl": "http://www.designcurial.com/Uploads/NewsArticle/4809815/main.jpg",
+      "category": "Construction",
+      "email": "waelShawky@yahoo.com"
+    },
+    {
+      "name": "Micheal Dior",
+      "email": "michealDior@gmail.com",
+      "category": "fashion",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nyfwsketches-1567608885.jpg?crop=0.502xw:1.00xh;0.251xw,0&resize=640:*",
+      "id": 31
     }
   ]
 }

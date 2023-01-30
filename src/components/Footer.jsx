@@ -13,8 +13,8 @@ function Footer() {
 
       </div>
       <div >
-        <p className="phon">Phone Number: </p>
-        <p>0797119374</p>
+        <p className="phon">Email: </p>
+        <p>hydratech@gmail.com</p>
         <p className="phon">Terms and Conditions:</p>
         <p>© Hydratech Character Table, 2021–2023.Hydratech® is a registered trademark of Hydratec, Inc.</p>
         <p className="phon">Our Core Values</p>

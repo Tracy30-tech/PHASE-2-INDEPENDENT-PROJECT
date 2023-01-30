@@ -11,31 +11,31 @@ export default function Carousel() {
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={1}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg'
+        src='https://elle.in/wp-content/uploads/2023/01/2.png'
         alt='...'
       >
-        <h5>First slide label</h5>
+        <h5 className='carol'>FASHION</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </MDBCarouselItem>
 
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={2}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg'
+        src='https://mymodernmet.com/wp/wp-content/uploads/2021/10/charis-tsevis-african-bricks-mosaic-portrait-art-5.jpeg'
         alt='...'
       >
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h5 className='carol'>ARTWORK</h5>
+        <p>Kizuri chajiuza kibaya chajitembeza.</p>
       </MDBCarouselItem>
 
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={3}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg'
+        src='https://img.freepik.com/premium-photo/3d-rendering-design-modern-exterior-house-model-illustration-with-swimming-pool_437476-344.jpg?w=2000'
         alt='...'
       >
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <h5 className='carol'>CONSTRUCTION</h5>
+        <p>Quality construction better lifestyle.</p>
       </MDBCarouselItem>
     </MDBCarousel>
     </div>

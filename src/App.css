@@ -109,12 +109,14 @@ nav a:active {
 }
 
 #more {
-  height: 350px;
+  height: 500px;
   background-color: #580327; /* For browsers that do not support gradients */
   background-image: linear-gradient(0deg,#580327, rgb(121, 185, 250));
   display: flex;
   justify-content: space-around;
   font-size: large;
+  color: black;
+  margin-top: 90px;
 }
 
 #content{
@@ -152,12 +154,15 @@ nav a:active {
   font-size: larger;
   background-color: aliceblue;
   margin-bottom: 70px;
+  padding-left: 50px;
 
 }
 
 .report{
   margin-top: 30px;
   font-weight: bolder;
+  color: black;
+ 
 }
 
 .btnhome:hover {
@@ -189,4 +194,13 @@ nav a:active {
   float: right;
   transition-duration: 0.4s;
   border-radius: 4px;
+}
+
+.carol{
+  font-weight: bolder;
+}
+
+.par{
+  padding-left: 40px;
+  padding-right: 40px;
 }
